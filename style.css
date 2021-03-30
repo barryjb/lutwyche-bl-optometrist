@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after { box-sizing: inherit;}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+header{
+    background-color: #FAFAFA;
+}
+
+#img-logo{
+    text-align: center;   
+}
+
+#logo{
+    width: 350px;
+    height:300px;
+}
+
+header h2{
+    text-align: center;
+    color: #4EC792;
+    margin-bottom: 30px;
+}
+
+#nav{
+    text-align: center;
+    margin: 25px;
+}
+
+#nav li{
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#underline{
+   border-bottom: 5px solid #8e8d91;   
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+    text-align: center; 
+}
+
+#img-shop{
+    position: relative;    
+}
+
+#img-home{
+    width: 100%;
+}
+
+#main-image-square{
+    width: 35%;
+    height: 55%;
+    background-color: #363E41;
+    position: absolute;
+    top: 14%;
+    left: 7%;
+    color: #EDEBF2;
+}
+
+#above-border{
+    position: relative;
+    font-size: 2em;
+    margin: 25px auto;
+}
+
+#border{
+    width: 80%;
+    height:1px;
+    background-color: white;
+    margin: 0 auto 25px auto;
+}
+
+#below-border{
+    font-size: 25px;
+}
+
+.middle{
+    background-color: #2F2F30;
+    color: #EDEBF2;
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: 100;
+}
+
+#info{
+    background-color: #BEBCC2;
+    text-align: center;
+    min-height: auto;
+    margin-top: 30px;
+    padding: 30px;
+    line-height: 2.2;
+}
+
+footer{
+    margin: 120px auto;
+    text-align: center;
+    width: 75%;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+footer p{
+    position: absolute;
+    left: 0px;
+    font-weight: 100;
+
+}
+
+ul{
+    list-style-type: none;
+}    
+
+footer ul{
+    position: absolute;
+    right: 50px;
+
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+.sns-icons{
+    font-size:15px;
+    color:#444;
+    margin-left: 13px;
+}
+
+#home-page-body{
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    z-index: 2;
+
+}
+
+#cross-img{
+    width: 40px;
+    height: 40px;
+    margin: 35px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 4;
+    top: 0;
+    right: 0;
+}
+
+#graphic-img{
+    width: 650px;
+    height: 430px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 3;
+}
+
+#home-page-body-mid{
+    position: fixed;
+    width: 550px;
+    height: 350px;
+    background-color:#ABE7C0;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center; 
+}
+
+#home-page-body-mid > *{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+
+#home-page-body-mid h2{
+    font-size: 3.5em;
+    margin-top: 25px;
+}
+
+#home-page-body-mid p{
+    margin-top: 5px;
+}
+
+#home-page-body-mid button{
+    font-size: 1.0em;
+    width: 180px;
+    height: 45px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+
+
+}
+
+
+
+/*about-html*/
+.about-text{
+    background-color: #363E41;
+    color: white;
+    padding: 50px;
+}
+
+.about-text p{  
+    
+}
+
+.about-text p span{
+    font-size: 23px;
+}
+
+
+.about-team-adam{
+    display: flex;
+    margin: 30px 0;
+    height: 100%;    
+}
+
+#about-adam-left{
+    
+}
+
+#about-adam-left img{    
+    height: 100%;
+
+}
+
+#about-adam-right{
+    
+}
+
+#line{
+    border: 1px solid;
+    width: 35px;
+    position: relative;
+    margin: 25px auto;
+
+}
+
+.about-team-loz{
+    display: flex;
+    margin: 30px 0;
+    height: 100%; 
+}   
+
+#about-loz-left{
+    
+}
+
+#about-loz-right img{
+    height: 100%; 
+    
+}  
+
+
+
+/*services-html*/
+
+.container-services{
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+}
+#services{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+
+.service{
+    width: 33%;
+}
+
+#eye-test{
+    background-color: black;
+    color: white;
+}
+#spectacle-clean-adjust{
+    background-color:grey;
+    color: white;
+}
+#contact-lens{
+    background-color: #4EC792;;
+    color: white;
+}
+
+
+/*products-html*/
+
+#middle-left{
+    float: left;   
+}
+
+#middle-left ul{
+    text-align: center;   
+}
+
+
+#middle-right{
+    
+}
+
+
