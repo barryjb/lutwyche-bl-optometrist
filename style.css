@@ -248,7 +248,7 @@ footer ul li{
 .about-team-adam{
     display: flex;
     margin: 30px 0;
-    height: 100%;    
+       
 }
 
 #about-adam-left{
@@ -257,6 +257,8 @@ footer ul li{
 
 #about-adam-left img{    
     height: 100%;
+    
+
 
 }
 
