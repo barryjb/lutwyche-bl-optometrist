@@ -97,14 +97,19 @@
         </footer>
 
 <script>
-    // const toggle = document.querySelector('.toogle')
-    // const navigation = document.querySelector('.navigation')
+    const homePageBody = document.querySelector('#home-page-body')
+    const crossImg = document.querySelector('#cross-img')
+    const graphicImg = document.querySelector('#graphic-img')
+    const homePageBodyMid = document.querySelector('#home-page-body-mid')
 
-    // toggle.addEventListener('click', () => {
-    // toggle.classList.toggle('active')
-    // navigation.classList.toggle('active')
-    // })
+    crossImg.addEventListener('click', () => {
+    homePageBody.classList.add('inactive');
+    crossImg.classList.add('inactive');
+    graphicImg.classList.add('inactive');
+    homePageBodyMid.classList.add('inactive');
+})
 
+    
 
 </script> 
  

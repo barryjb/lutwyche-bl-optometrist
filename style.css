@@ -171,6 +171,10 @@ footer ul li{
     right: 0;
 }
 
+#cross-img .active{
+
+}
+
 #graphic-img{
     width: 650px;
     height: 430px;
@@ -223,8 +227,10 @@ footer ul li{
     cursor: pointer;
     outline: none;
     appearance: none;
+}
 
-
+.inactive{
+    display: none;
 }
 
 
