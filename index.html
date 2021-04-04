@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
     <title>HOME | Laraghy & Chan Optometrists</title>
 </head>
@@ -18,7 +18,7 @@
         <p>EASTER SATURDAY - CLOSED</p>
         <p>EASTER SUNDAY - CLOSED</p>
         <p>EASTER MONDAY - CLOSED</p>
-        <button>Go To Site</button>
+        <button id="home-page-btn">Go To Site</button>
     </div>
      
     <header>
@@ -100,8 +100,15 @@
     const crossImg = document.querySelector('#cross-img')
     const graphicImg = document.querySelector('#graphic-img')
     const homePageBodyMid = document.querySelector('#home-page-body-mid')
+    const homePageBtn = document.querySelector('#home-page-btn')
 
     crossImg.addEventListener('click', () => {
+    homePageBody.classList.add('inactive');
+    crossImg.classList.add('inactive');
+    graphicImg.classList.add('inactive');
+    homePageBodyMid.classList.add('inactive');
+})
+    homePageBtn.addEventListener('click', () => {
     homePageBody.classList.add('inactive');
     crossImg.classList.add('inactive');
     graphicImg.classList.add('inactive');

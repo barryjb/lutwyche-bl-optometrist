@@ -1,7 +1,15 @@
-figure out why Loz is bigger MA
+
+Home Page
+make overlay only appear on first page load not every time go back to the home page 040421 BJB
+make responsive 040421 BJB
+
+
+About Page
+make responsive 030421 MA
+
+figure out why Loz is bigger 030421 MA
     I think because image size is bigger so need to specify max-width done 040421 BJB
-fix img size and text-box size MA
+fix img size and text-box size 030421 MA
     done 040421 BJB
-change img color to black and white MA
+change img color to black and white 030421 MA
     done 040421 BJB
-responsive  
