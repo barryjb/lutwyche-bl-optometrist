@@ -1,16 +1,24 @@
+#contact-container{
+    background-color: #EDEBF2;
+    width: 60%;
+    margin: auto;
+    text-align: center; 
+}
+
 #img-contact{
     position: relative;
 }
 
 #img-contact p{
     position: absolute;
-    top: 0;
+    top: ;
     left: 0;
     font-size: 40px;
     text-transform: uppercase;
 }
 
 #img-contact img{
+    filter: grayscale(90%);
 }
 
 #comment{
@@ -29,5 +37,29 @@
 
 #sns ul li{
     display: inline-block;
+}
+
+#contact-page-bottom{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#map{
+    min-width: 500px;
+    height: 650px;
+    background-color: pink;
+    flex-grow: 1;
+}
+
+#green-box{
+    min-width: 500px;
+    height: 650px;
+    background-color:#4CD1A0;
+    flex-grow: 1;
+}
+
+#space-at-bottom{
+    height: 20px;
 }
 

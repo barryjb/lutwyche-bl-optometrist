@@ -2,6 +2,7 @@
 Home Page
 make overlay only appear on first page load not every time go back to the home page 040421 BJB
 make responsive 040421 BJB
+make nav bar fade in on page load 040421 BJB
 
 
 About Page
