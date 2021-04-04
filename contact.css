@@ -1,0 +1,33 @@
+#img-contact{
+    position: relative;
+}
+
+#img-contact p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#img-contact img{
+}
+
+#comment{
+
+}
+
+#border-contact{
+    width: 20%;
+    height:1px;
+    background-color: black;
+}
+
+#sns{
+    margin: 20px;
+}
+
+#sns ul li{
+    display: inline-block;
+}
+
