@@ -13,3 +13,12 @@ fix img size and text-box size 030421 MA
     done 040421 BJB
 change img color to black and white 030421 MA
     done 040421 BJB
+
+
+Services Page
+match font to existing page 040421 BJB
+
+
+Footer
+make font-size of footer bigger (text and icons) and match font-family 040421 MA
+
