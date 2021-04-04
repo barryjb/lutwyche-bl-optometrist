@@ -10,8 +10,7 @@ html{
 }
 
 body{
-    font-family:'Courier New', Courier, monospace;
-    
+    font-family:'Courier New', Courier, monospace;    
 }
 
 header{
@@ -171,10 +170,6 @@ footer ul li{
     right: 0;
 }
 
-#cross-img .active{
-
-}
-
 #graphic-img{
     width: 650px;
     height: 430px;
@@ -238,38 +233,18 @@ footer ul li{
 /*about-html*/
 .about-text{
     background-color: #363E41;
-    color: white;
+    color:#fff;
     padding: 50px;
 }
 
 .about-text p{  
-    
+    line-height: 1.8;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-.about-text p span{
-    font-size: 23px;
-}
-
-
-.about-team-adam{
-    display: flex;
-    margin: 30px 0;
-       
-}
-
-#about-adam-left{
-    
-}
-
-#about-adam-left img{    
-    height: 100%;
-    
-
-
-}
-
-#about-adam-right{
-    
+.about-text span{
+    font-size: 30px;
+    /* font-weight: 545; */
 }
 
 #line{
@@ -277,23 +252,58 @@ footer ul li{
     width: 35px;
     position: relative;
     margin: 25px auto;
-
 }
+
+.about-team-adam{
+    display: flex;
+    margin: 30px 0;
+    max-height: 500px;
+    justify-content: center;
+    
+}
+
+#about-adam-left{
+    
+}
+
+#about-adam-left img{
+    height: 100%;
+    max-width: 600px;
+    filter: grayscale(100%);
+    
+}
+
+#about-adam-right{
+    max-width: 40%;
+}
+
 
 .about-team-loz{
     display: flex;
     margin: 30px 0;
-    height: 100%; 
+    max-height: 500px;
+    justify-content: center;
 }   
 
-#about-loz-left{
+#about-loz-right{
+    
+}  
+
+#about-loz-right img{
+    height: 100%;
+    max-width: 600px;
+    filter: grayscale(100%);
+    
     
 }
 
-#about-loz-right img{
-    height: 100%; 
-    
-}  
+#about-loz-left{
+    max-width: 40%;
+}
+
+
+/*about-html media queries*/
+
 
 
 

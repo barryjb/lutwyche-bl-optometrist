@@ -1,0 +1,7 @@
+figure out why Loz is bigger MA
+    I think because image size is bigger so need to specify max-width done 040421 BJB
+fix img size and text-box size MA
+    done 040421 BJB
+change img color to black and white MA
+    done 040421 BJB
+responsive  
