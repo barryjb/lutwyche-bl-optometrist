@@ -1,8 +1,15 @@
+Global
+make all text match existing website 250421 MA
+
 
 Home Page
-make overlay only appear on first page load not every time go back to the home page 040421 BJB
+make overlay only appear on first page load not every time go back to the 
+home page 040421 BJB
+    no longer need it 250421 BJB
 make responsive 040421 BJB
 make nav bar fade in on page load 040421 BJB
+remove overlay 250421 MA
+make text size in main-img-square same as original 250421 MA
 
 
 About Page
@@ -14,11 +21,20 @@ fix img size and text-box size 030421 MA
     done 040421 BJB
 change img color to black and white 030421 MA
     done 040421 BJB
+make text size in main-img-square same as original 250421 MA
+add white line to info div 250421 MA
+fix Adam and Loz imgs (looks squashed) 250421 MA    
 
 
 Services Page
 match font to existing page 040421 BJB
+    done (changed font to look better) 250421 BJB
 
+Products Page
+responsive 250421 MA
+prevent footer overlapping body back ground 250421 MA  
+
+Contact Page
 
 Footer
 make font-size of footer bigger (text and icons) and match font-family 040421 MA
